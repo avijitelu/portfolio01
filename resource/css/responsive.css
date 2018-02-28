@@ -1,0 +1,59 @@
+@media (max-width: 767px){
+    .navbar-header .brand {
+        padding-left: 20px;
+        font-size: 22px;
+        color: #4bb51c;
+    }
+    
+    .header_area:before {
+        width: 0%;
+    }
+    
+    .navbar-header .nav-btn span {
+        background-color: #ffffff;
+    }
+    
+    #navbar {
+        background-color: #181818;
+    }
+    
+    ul.nav > li {
+/*        border-bottom: 1px dotted #c4c4c4;*/
+    }
+    
+    ul.nav > li > a {
+        line-height: 40px;
+        color: #fff;
+        transition: all 0.2s;
+    }
+    
+    ul.nav > li > a:hover, ul.nav > li.active > a {
+        background-color: #4bb51c;
+        color: #fff;
+    }
+    
+    .nav-btn {
+        background-color: #4bb51c;
+        padding: 14px 10px;
+    }
+}
+
+@media (max-width:447px){
+    .skill-type ul li {
+        font-size: 12px;
+    }
+    
+    .skill-type {
+        padding: 10px 10px 40px 30px;
+    }
+    
+    .hero_content h1.big_title {
+        font-size: 40px;
+        font-weight: 700;
+        
+    }
+}
+
+
+
+
